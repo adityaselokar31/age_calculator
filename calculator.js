@@ -29,10 +29,10 @@ function calculateAge() {
   const totalDays = Math.floor(diffInMs / (1000 * 60 * 60 * 24));
 
   result.innerHTML = `
-    🎉 You are <span class="highlight">${years}</span> years, 
+    🎂 You are <span class="highlight">${years}</span> years, 
     <span class="highlight">${months}</span> months, 
     <span class="highlight">${days}</span> days old.<br>
-    🗓️ Total Days Lived: <span class="highlight">${totalDays}</span> days
+    📅 Total Days Lived: <span class="highlight">${totalDays}</span> days
   `;
 
   result.classList.remove("fade-in");
